@@ -22,7 +22,7 @@ How do we measure value? <br/>
 - team record W/O
 
 I assign each measure with a weight on importance <br/>
-Value = gm + mn + pts + ass + reb + pm + rec + usage
+Value = gm + mn + pts + ass + reb + pm + rec + usage <br/>
 Value = .15 + .05 + .15 + .15 + .15 + .10 + .2 + .05
 
 ### How the program works?
