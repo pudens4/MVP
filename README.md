@@ -9,19 +9,27 @@ Most Valuable Player is a straightforward definition. It is the player that is t
 to a team, with that we can compare the value of the players to a team and the overall league to determine 
 who is the MVP. 
 
-How valuable a player is to a team?
+How valuable a player is to a team? <br/>
 I create a formula to compute a player value to a team based on several metrics
 
-How do we measure value?
-Game played
-minutes played
-points per game
-assists per game
-rebound per game
-plus minus
-team record W/O
+How do we measure value? <br/>
+- Game played
+- minutes played
+- points per game
+- assists per game
+- rebound per game
+- plus minus
+- team record W/O
 
-Each measure has a certain weight on the player's value
+I assign each measure with a weight on importance <br/>
+Value = gm + mn + pts + ass + reb + pm + rec + usage
+Value = .15 + .05 + .15 + .15 + .15 + .10 + .2 + .05
+
+### How the program works?
+The program will go through each date of the season, compute the value of each player and 
+add them to a leaderboard
+
+
 
 ## Resources
 
