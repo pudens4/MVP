@@ -23,12 +23,16 @@ How do we measure value? <br/>
 
 I assign each measure with a weight on importance <br/>
 Value = gm + mn + pts + ass + reb + pm + rec + usage <br/>
-Value = .15 + .05 + .15 + .15 + .15 + .10 + .2 + .05
+Value = .05 + .15 + .15 + .15 + .15 + .10 + .2 + .05
 
 ### How the program works?
 The program will go through each date of the season, compute the value of each player and 
 add them to a leaderboard
 
+### Challenges 
+Some challenges I've encountered in the data were
+- duplicates of players and stats, 
+- data types needed to change from string to integer or float
 
 
 ## Resources
